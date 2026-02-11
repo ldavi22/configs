@@ -1,0 +1,37 @@
+[window]
+opacity = 1
+decorations = "Full"
+
+[window.padding]
+x = 0
+y = 0
+[font]
+size = 13
+[colors.primary]
+background = "#1c1c1c"
+foreground = "#d0d0d0"
+
+[colors.normal]
+black   = "#1c1c1c"
+red     = "#af5f5f"
+green   = "#87af87"
+yellow  = "#afaf87"
+blue    = "#5f87af"
+magenta = "#875f87"
+cyan    = "#5f8787"
+white   = "#d0d0d0"
+
+[colors.bright]
+black   = "#444444"
+red     = "#ff8787"
+green   = "#a3f7a3"
+yellow  = "#f7f7a3"
+blue    = "#87aff7"
+magenta = "#d787d7"
+cyan    = "#87d7d7"
+white   = "#ffffff"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Control"
+action = "ToggleFullscreen"
